@@ -5,13 +5,6 @@ import numpy as np
 # Load the model
 model = joblib.load('xgb_model.pkl')  # Ensure the .pkl file is in the same folder as this script
 
-# Add logo or image at the top
-st.image(
-    'diabetes_logo.png',
-    caption="Diabetes Prediction App",
-    use_container_width=False
-)
-
 
 # Title with emoji
 st.title("🩺 Diabetes Prediction App")
