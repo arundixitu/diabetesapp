@@ -5,7 +5,6 @@ import numpy as np
 # Load the model
 model = joblib.load('xgb_model.pkl')  # Ensure the .pkl file is in the same folder as this script
 
-
 # Title with emoji
 st.title("🩺 Diabetes Prediction App")
 
